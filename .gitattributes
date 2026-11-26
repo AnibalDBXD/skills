@@ -1,0 +1,26 @@
+# Keep documentation and source-like skill files consistent across platforms.
+*.md text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.txt text eol=lf
+
+# Shell entrypoints must not receive CRLF on Windows checkouts.
+*.sh text eol=lf
+**/scripts/impeccable text eol=lf
+executing-plans/scripts/task-done text eol=lf
+executing-plans/scripts/task-start text eol=lf
+subagent-driven-development/scripts/review-package text eol=lf
+subagent-driven-development/scripts/sdd-repo text eol=lf
+subagent-driven-development/scripts/sdd-workspace text eol=lf
+subagent-driven-development/scripts/task-brief text eol=lf
+
+# cmd.exe batch files require CRLF for label/goto parsing.
+*.cmd text eol=crlf
+
+# Assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text eol=lf

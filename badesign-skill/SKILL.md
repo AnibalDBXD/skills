@@ -1,6 +1,7 @@
 ---
 name: badesign-skill
 description: Design judgment for any user interface work, including web apps, dashboards, landing pages, ecommerce, forms, mobile apps, redesigns and design reviews.
+disable-model-invocation: true
 ---
 
 # BADESIGN
